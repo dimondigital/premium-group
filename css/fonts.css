@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'evolventabold';
+  src: url("../src/fonts/evolventa_bold-webfont.eot");
+  src: url("../src/fonts/evolventa_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../src/fonts/evolventa_bold-webfont.woff2") format("woff2"), url("../src/fonts/evolventa_bold-webfont.woff") format("woff"), url("../src/fonts/evolventa_bold-webfont.ttf") format("truetype"), url("../src/fonts/evolventa_bold-webfont.svg#evolventabold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'bobz_type_cyrillicregular';
+  src: url("../src/fonts/bobz_type_cyrillic-webfont.eot");
+  src: url("../src/fonts/bobz_type_cyrillic-webfont.eot?#iefix") format("embedded-opentype"), url("../src/fonts/bobz_type_cyrillic-webfont.woff2") format("woff2"), url("../src/fonts/bobz_type_cyrillic-webfont.woff") format("woff"), url("../src/fonts/bobz_type_cyrillic-webfont.ttf") format("truetype"), url("../src/fonts/bobz_type_cyrillic-webfont.svg#bobz_type_cyrillicregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* FONT TYPES */
+.font-evolventabold {
+  font-family: 'evolventabold'; }
+
+.font-bobz {
+  font-family: 'bobz_type_cyrillicregular'; }
+
+/* FONT SIZE */
+.font-size-extra-small {
+  font-size: 20px; }
+
+.font-size-small {
+  font-size: 30px; }
+
+.font-size-normal {
+  font-size: 40px; }
+
+.font-size-large {
+  font-size: 50px; }
+
+.font-size-extra-large {
+  font-size: 60px; }
+
+/* HEADERS  */
+h1 {
+  font-size: 80px; }
+
+h2 {
+  font-size: 70px; }
+
+h3 {
+  font-size: 60px; }
+
+/* Large Devices, Wide Screens */
+/* Extra Small Devices, Phones */
+@media (max-width: 480px) {
+  .font-size-extra-small {
+    font-size: 12px; }
+  .font-size-small {
+    font-size: 18px; }
+  .font-size-normal {
+    font-size: 23px; }
+  .font-size-large {
+    font-size: 25px; }
+  .font-size-extra-large {
+    font-size: 30px; }
+  /* HEADERS  */
+  h1 {
+    font-size: 40px; }
+  h2 {
+    font-size: 35px; }
+  h3 {
+    font-size: 30px; } }

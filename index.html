@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+  <title>Premium Group</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/starter-style.css">
+  <link rel="stylesheet" href="css/main-style.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/parallax.js/parallax.min.js"></script>
+  <script src="scripts/casePopup.js"></script>
+  <style>
+    #page-preloader {
+      position: fixed;
+      display: flex;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: white;
+      z-index: 100500;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #page-preloader .spinner {
+      display: flex;
+      align-self: center;
+      margin: 0 auto;
+      line-height: 100vh;
+      width: 100px;
+      height: 100px;
+      background: url('https://image.ibb.co/eoWDvG/logo_animation_small.gif') 50% 50% no-repeat;
+      background-size: cover;
+      -webkit-backface-visibility: hidden;
+    }
+  </style>
+</head>
+<body class='font-evolventabold'>
+<!-- preloader -->
+<div id="page-preloader">
+  <div class="spinner"><img></div>
+</div>
+<!-- main -->
+<section class="main" id='main'>
+  <div class="container animated fadeIn">
+    <div class="row col-sm-12 col-xs-12">
+      <div class="logo col-sm-4">
+        <img src="https://image.ibb.co/hjSmFG/logo.png" alt="logo" class='col-xs-12'>
+
+      </div>
+      <div class="contacts col-md-6 col-md-offset-2 col-sm-offset-0 col-sm-12">
+        <p class=''><a href="tel:+30966831628">096 683 16 28</a></p>
+        <p class=''>г. Днепр, ул.Шевченко 10</p>
+        <p class='e-mail'>premium.group.pack@gmail.com</p>
+      </div>
+    </div>
+    <div class="row col-sm-12 col-xs-12 caption">
+      <div class='poly'>полиэтиленовая</div>
+      <h1 class='pack'>упаковка</h1>
+      <p>от завода производителя</p>
+      <p>c доставкой по Украине</p>
+    </div>
+  </div>
+</section>
+<!-- request-form -->
+<section class="request-form" id='request-form'>
+  <div class="container">
+    <dir class="row col-sm-12">
+      <p>ОСТАВЬТЕ ЗАЯВКУ</p>
+      <p>и мы свяжемся с вами чтобы</p>
+      <p>обсудить детали и уточнить цену</p>
+      <form id="call-form" class="callbackform col-sm-12" method="post">
+        <input type="hidden" name="act" value="callback" hidden>
+        <input id="name" name="name" required="required" placeholder="Ваше имя" class=''>
+        <input id="tel" type="tel" name="tel" required="required" placeholder="Ваш телефон" class=''>
+        <input class="animation special-button form-close" type="submit" value="Отправить заявку"/>
+      </form>
+    </dir>
+  </div>
+</section>
+<!-- where-it-use -->
+<section class="where-it-use" id='where'>
+  <div class="container">
+    <div class="row col-xs-10 col-xs-offset-1">
+      <h1>где используется</h1>
+      <p>Спектр полиэтиленовой упаковки очень широк. Фактически её используют везде, где нужно уберечь товар от
+        попадания влаги, грязи, пыли или просто его расфасовать. Вот небольшой список отраслей, которые используют такую
+        упаковку:</p>
+      <ul>
+        <li>- пищевая промышленность</li>
+        <li>- мебель</li>
+        <li>- строительство</li>
+        <li>- животноводчество</li>
+        <li>- сельское хозяйство</li>
+        <li>- бытовая химия</li>
+        <li>- оптовая торговля</li>
+        <li>- одежда</li>
+        <li>- типография</li>
+        <li>- теплицы</li>
+        <li>и остальные...</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- what-we-offer -->
+<section class="what-we-offer" id='what'>
+  <div class="container">
+    <div class="row col-xs-12">
+      <h1>что мы предлагаем</h1>
+
+    </div>
+  </div>
+</section>
+<section class='offer offer-1 col-xs-12'>
+  <img class="img-responsive" src="https://image.ibb.co/jWBP2w/what_bg_1.png"></img>
+  <div class="">
+    <p>пакеты</p>
+    <p>"майка" и "банан"</p>
+    <p>с печатью и без</p>
+  </div>
+</section>
+<section class='offer offer-2 col-xs-12'>
+  <img class="img-responsive" src="https://image.ibb.co/crKoUb/what_bg_2.png"></img>
+  <div class="">
+    <p>рукав</p>
+    <p>полурукав</p>
+    <p>низкого или</p>
+    <p>высокого</p>
+    <p>давления</p>
+  </div>
+</section>
+<section class='offer offer-3 col-xs-12'>
+  <img class="img-responsive" src="https://image.ibb.co/kMMfaG/what_bg_3.png"></img>
+  <div class="">
+    <p>термоусадочный</p>
+    <p>рукав для</p>
+    <p>плотной упаковки</p>
+    <p>товара</p>
+  </div>
+</section>
+<section class='offer offer-4 col-xs-12'>
+  <img class="img-responsive" src="https://image.ibb.co/kzy42w/what_bg_4.png"></img>
+  <div class="">
+    <p>стрейч плёнка</p>
+    <p>и многое другое...</p>
+  </div>
+</section>
+
+<!-- faq -->
+<section class="faq" id='faq'>
+  <div class="container">
+    <div class="row col-xs-12">
+      <h1>нас часто спрашивают</h1>
+      <p>Какой минимальный объём тиража ?</p>
+      <p>Минимальный объём - 200 кг. Чтобы вы не ломали голову сколько это в пакетах или рулонах, мы бесплатно для вас
+        посчитаем нужный объём. Параметров для этой формулы действительно много - толщина, высота, ширина и несколько
+        других.
+        Оставьте заявку и мы сделаем бесплатный подсчёт.</p>
+      <a class="animation special-button form-close" value="Отправить заявку" href="#request-form">Отправить заявку</a>
+    </div>
+  </div>
+</section>
+<!-- contacts -->
+<section class="contacts-section" id='contacts'>
+  <div class="container">
+    <div class="row col-xs-12">
+      <h1>контакты</h1>
+    </div>
+  </div>
+  <!-- <div class="col-xs-12 map no-padding" id="map">
+    <script src="http://api-maps.yandex.ru/2.1.17/?lang=ru_RU" type="text/javascript"></script>
+  </div> -->
+  <div class="container">
+    <div class="row col-xs-12">
+      <div class='p-1 col-md-6 col-xs-12'>
+        <p>Возникли вопросы ?</p>
+        <p>Пишите и звоните нам.</p>
+        <p>Мы с радостью ответим.</p>
+      </div>
+      <div class='p-2 col-md-6 col-xs-12'>
+        <p><a href="tel:+30966831628">096 683 16 28</a></p>
+        <p>г. Днепр, ул.Шевченко 10</p>
+        <p>Работаем Пн-Пт 9:00 - 18:00</p>
+        <p>premium.group.pack@gmail.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+<section class='fooot' id='footer'>
+  <div class="container">
+    <div class="row col-sm-12 col-xs-12">
+      <p class='col-lg-6 col-md-4 col-sm-12 col-xs-12 text-align-left'></p>
+      <div class='col-lg-6 col-md-4 col-sm-12 col-xs-12' style="float: right; text-align: right;">
+        <a href="https://dimondigitall.web.app" target="_blank">
+          <p style="font-size: 0.5em;">developed by</p>
+          <img src="../../logo-small.jpg" alt="" style="max-width: 100px;">
+        </a>
+        <!--        <p>©2017</p>-->
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src='scripts/call-form.js'></script>
+<script src='bower_components/jquery-mask-plugin/dist/jquery.mask.min.js'></script>
+<script src='scripts/main.js'></script>
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-98294813-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

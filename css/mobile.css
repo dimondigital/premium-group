@@ -1,0 +1,47 @@
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 2vw; } }
+
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  body {
+    font-size: 5vw !important;
+    text-align: justify; }
+    body h1 {
+      font-size: 10vw; }
+  .main {
+    font-size: 5vw !important; }
+    .main .e-mail {
+      font-size: 4vw !important; }
+    .main .poly {
+      font-size: 8vw; }
+    .main .contacts {
+      margin-top: 50px;
+      text-align: center !important; }
+  .p-1, .p-2 {
+    margin-top: 50px;
+    text-align: center !important; }
+  .fooot .col-md-4 {
+    margin-top: 50px;
+    text-align: center; }
+  .fooot .f-1, .fooot .f-2 {
+    text-align: center; } }
+
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .container {
+    margin: 0 !important; }
+  .logo {
+    text-align: center !important; }
+  .main {
+    font-size: 5vw !important;
+    text-align: center !important; } }
+
+/* Custom, iPhone Retina */

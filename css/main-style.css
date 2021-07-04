@@ -1,0 +1,259 @@
+section {
+  background-color: #333;
+}
+
+body, section, div {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: inline-block;
+}
+
+.container {
+  margin: 100px 0px !important;
+}
+
+footer {
+  width: 100%;
+}
+
+h1 {
+  font-family: 'bobz_type_cyrillicregular';
+}
+
+/* MAIN */
+.main {
+  min-height: 600px;
+  background: transparent;
+  background-attachment: fixed;
+}
+
+.main .logo {
+  text-align: left;
+}
+
+.main .contacts {
+  text-align: right;
+}
+
+.main .pack {
+  font-size: 8vw;
+  margin-top: 1vw;
+}
+
+.main .caption {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.main .poly {
+  font-size: 4.4vw;
+}
+
+.main .e-mail {
+  font-size: 1.5vw;
+}
+
+.main .logo-caption {
+  line-height: 50px;
+}
+
+/* FORM */
+.request-form {
+  min-height: 600px;
+  background: transparent;
+}
+
+.request-form .container {
+  margin: 50px 0px !important;
+}
+
+.request-form input {
+  border: none;
+  border-radius: 5px;
+}
+
+.request-form input:focus {
+  border: none;
+  transition: all 0.2s ease-out;
+}
+
+.request-form input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: all 0.2s ease-out;
+}
+
+.request-form input:focus:-moz-placeholder {
+  opacity: 0;
+  transition: all 0.2s ease-out;
+}
+
+.request-form input[type=submit] {
+  margin-top: 60px;
+  margin-left: 0 auto;
+  width: 80%;
+  padding: 10px 20px;
+  color: #235376;
+  background-color: #00ffff !important;
+  transition: all 0.2s ease-out;
+}
+
+.request-form input[type=submit]:hover {
+  background-color: #235376 !important;
+  color: #00ffff;
+  transition: all 0.2s ease-out;
+}
+
+.request-form #name, .request-form #tel {
+  padding: 5px 15px;
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.request-form #tel[placeholder] {
+  color: #235376 !important;
+}
+
+.request-form #tel::-moz-placeholder {
+  color: #235376 !important;
+}
+
+.request-form #tel:-moz-placeholder {
+  color: #235376 !important;
+}
+
+.request-form #tel:-ms-input-placeholder {
+  color: #235376 !important;
+}
+
+.request-form #name[placeholder] {
+  color: #235376 !important;
+}
+
+.request-form #name::-moz-placeholder {
+  color: #235376 !important;
+}
+
+.request-form #name:-moz-placeholder {
+  color: #235376 !important;
+}
+
+.request-form #name:-ms-input-placeholder {
+  color: #235376 !important;
+}
+
+/* WHERE IT USE */
+.where-it-use {
+  min-height: 600px;
+  background-size: contain;
+  background: transparent;
+  background-attachment: fixed;
+}
+
+.where-it-use ul, .where-it-use p {
+  text-align: left;
+}
+
+.where-it-use li {
+  list-style-type: none;
+}
+
+/* WHAT WE OFFER */
+.what-we-offer {
+  color: #2a456e;
+  background-color: white;
+}
+
+.offer {
+  z-index: -1;
+  background-color: white;
+  color: #2a456e;
+  margin: 15vh 0px;
+  padding: 100px;
+  width: 100%;
+}
+
+.offer p {
+  font-size: 4vw;
+}
+
+.offer img {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: -50%;
+}
+
+.offer-1 {
+  background: transparent;
+}
+
+/* FAQ */
+.faq {
+  z-index: 3;
+  background-attachment: fixed;
+  background: transparent;
+  min-height: 850px;
+}
+
+.faq p {
+  margin: 100px 0;
+}
+
+.faq a {
+  margin-top: 100px !important;
+  border-radius: 5px;
+  width: 80%;
+  padding: 20px 90px;
+  margin-bottom: 100px !important;
+  color: #235376;
+  background-color: #00ffff !important;
+  transition: all 0.2s ease-out;
+}
+
+.faq a:hover {
+  background-color: #235376 !important;
+  color: #00ffff;
+  transition: all 0.2s ease-out;
+}
+
+/* CONTACTS */
+.contacts-section {
+  background-color: white;
+  color: #2a456e;
+}
+
+.contacts-section .map {
+  width: 100%;
+  background-color: white;
+  min-height: 600px;
+}
+
+.contacts-section a {
+  color: #2a456e;
+}
+
+.contacts-section .p-1 {
+  text-align: left;
+}
+
+.contacts-section .p-2 {
+  text-align: right;
+}
+
+/* FOOTER */
+.fooot {
+  background-color: #080b29;
+  background: transparent;
+  color: white;
+}
+
+.fooot .f-1, .fooot .f-2 {
+  text-align: right;
+}
+
+.fooot .f-2 {
+  text-decoration: underline;
+}
